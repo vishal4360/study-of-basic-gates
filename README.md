@@ -1,4 +1,4 @@
-### study-of-basic-gates
+# study-of-basic-gates
 
 **AIM:** 
 
@@ -65,15 +65,40 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module expt1( a,b,c,d,e,f,g,h,i);
+input a,b;
+output c,d,e,f,g,h,i;
+and (c,a,b);
+or (d,a,b);
+not (e,a);
+xor (f,a,b);
+nand (g,a,b);
+nor (h,a,b);
+xnor (i,a,b);
+endmodule
 
- Developed by: RegisterNumber: 
+```
+
+**Developed by:Vishal C**
+
+**RegisterNumber: 24001428**
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2024-11-22 at 18 45 08_5d016375](https://github.com/user-attachments/assets/31c62ebd-c4ff-4d83-849f-8732a8205c71)
+
 
 **RTL realization Output:** 
+![WhatsApp Image 2024-11-22 at 18 45 09_071719fb](https://github.com/user-attachments/assets/682b42c8-fe1b-4625-b61a-fcf5d78dd655)
+
 
 **RTL**
+![WhatsApp Image 2024-11-22 at 18 45 09_51315374](https://github.com/user-attachments/assets/347734a0-da98-416e-957f-01f1d2a0c4d6)
+
 
 **Result:**
+
+The truth table of the specified logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)
+ was successfully implemented and verified using Verilog programming in Quartus II.
 
 
